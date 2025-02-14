@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "uId": 1,
+      "user": "user1",
+      "pass": "abc@123",
+      "id": "ff29"
+    },
+    {
+      "uId": 2,
+      "user": "user2",
+      "pass": "abc@123",
+      "id": "618a"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "2",
+      "title": "Learn",
+      "cId": 2,
+      "uId": 1,
+      "status": true,
+      "issues": [
+        {
+          "id": 1,
+          "title": "Issue 1",
+          "start": "2024/12/03",
+          "end": "2024/12/03",
+          "status": true
+        },
+        {
+          "id": 2,
+          "title": "Issue 2",
+          "start": "2024/12/03",
+          "end": "2024/12/04",
+          "status": true
+        },
+        {
+          "id": 3,
+          "title": "Test issue",
+          "start": "12/5/2024, 11:26:51 AM",
+          "end": "2024-12-10",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Job 3",
+      "cId": 1,
+      "uId": 2,
+      "status": false,
+      "issues": [
+        {
+          "id": 1,
+          "title": "Issue 1",
+          "start": "2024/12/03",
+          "end": "2024/12/03",
+          "status": true
+        },
+        {
+          "id": 2,
+          "title": "Issue 2",
+          "start": "2024/12/03",
+          "end": "2024/12/04",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Play football",
+      "cId": 1,
+      "uId": 1,
+      "status": false,
+      "issues": [
+        {
+          "id": 1,
+          "title": "Issue 1",
+          "start": "2024/12/03",
+          "end": "2024/12/03",
+          "status": true
+        },
+        {
+          "id": 2,
+          "title": "Issue 2",
+          "start": "2024/12/03",
+          "end": "2024/12/04",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Picnic",
+      "cId": 2,
+      "uId": 1,
+      "status": true,
+      "issues": [
+        {
+          "id": 1,
+          "title": "Issue 1",
+          "start": "2024/12/03",
+          "end": "2024/12/03",
+          "status": true
+        },
+        {
+          "id": 2,
+          "title": "Issue 2",
+          "start": "2024/12/03",
+          "end": "2024/12/04",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": "943e",
+      "title": "Test New Job",
+      "cId": 1,
+      "uId": 1,
+      "status": false,
+      "issues": [
+        {
+          "id": 1,
+          "title": "dfads",
+          "start": "12/6/2024, 10:31:54 AM",
+          "end": "2024-12-20",
+          "status": false
+        },
+        {
+          "id": 2,
+          "title": "adasdad",
+          "start": "12/6/2024, 10:32:03 AM",
+          "end": "2024-12-12",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": "4320",
+      "title": "Test 123",
+      "cId": 2,
+      "uId": 1,
+      "status": false,
+      "issues": [
+        {
+          "id": 1,
+          "title": "",
+          "start": "12/6/2024, 10:35:55 AM",
+          "end": "",
+          "status": false
+        },
+        {
+          "id": 2,
+          "title": "asdad",
+          "start": "12/6/2024, 10:36:01 AM",
+          "end": "2024-12-12",
+          "status": false
+        },
+        {
+          "id": 3,
+          "title": "",
+          "start": "12/6/2024, 10:37:18 AM",
+          "end": "2024-12-09T13:40",
+          "status": false
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "cId": 1,
+      "name": "Category 1",
+      "id": "ce6a"
+    },
+    {
+      "cId": 2,
+      "name": "Category 2",
+      "id": "17c9"
+    }
+  ]
+}
